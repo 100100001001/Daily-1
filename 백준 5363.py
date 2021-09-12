@@ -2,5 +2,4 @@
 
 for _ in range(int(input())):
     sen = input().split()
-    print(type(sen))
     print(*sen[2:], *sen[:2])
