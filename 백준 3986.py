@@ -6,15 +6,15 @@ for _ in range(int(input())):
     word = input()
     stack = [] 
     for i in word:
-        if len(stack) == 0:
+        if not stack:
             stack.append(i)
-        elif len(stack) >= 1:
+        else:
             if stack[-1] == i:
                 stack.pop()
             else:
                 stack.append(i)
     
-    if len(stack) == 0:
+    if not stack:
         cnt += 1
 
 print(cnt)
