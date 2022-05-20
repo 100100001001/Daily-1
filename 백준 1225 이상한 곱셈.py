@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/1225
 
+# 시간초과 ============================
 # import sys
 # input = sys.stdin.readline
 
@@ -11,6 +12,7 @@
 #         add += int(i) * int(j)
 
 # print(add)
+# =====================================
 
 '''
 1×3 + 1×4 + 2×3 + 2×4 + 1×3 + 1×4 = 28
